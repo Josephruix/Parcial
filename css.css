@@ -1,0 +1,143 @@
+.navbar {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+ 
+  
+  header {
+    background-color: #242323;
+    padding: 20px;
+    
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    flex-direction: row;
+    padding: auto;
+  }
+  
+  .Titulo2 {
+    text-align: center;
+  }
+  
+  .card {
+    margin-bottom: 10px; 
+    margin-right: 10px; 
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  /* Centra el título de la tarjeta */
+  .card-title {
+    margin-bottom: 10px;
+    text-align: center; /* Centrar el texto */
+  }
+  
+  .btn-primary {
+    background-color: #333;
+    border-color: #333;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+  }
+  .iframe-container {
+    position: absolute; /* Posición absoluta con respecto al footer */
+    bottom: 10px; /* Ajustar la distancia desde abajo */
+    right: 10px; /* Ajustar la distancia desde la derecha */
+    width: 200px; /* Ancho del iframe */
+    height: 100px; /* Altura del iframe */
+}
+
+.iframe-content {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.pagos-main{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+}
+.footer-pagos{
+  margin-top: auto;
+}
+.form-select {
+  margin-bottom: 1rem; 
+  width: 100%;  
+  padding: .375rem .75rem; 
+  font-size: 1rem; 
+  line-height: 1.5; 
+  color: #495057; 
+  background-color: #fff; 
+  background-clip: padding-box; 
+  border: 1px solid #ced4da; 
+  border-radius: .25rem; 
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; 
+}
+.form-producto{
+  margin-bottom: 1rem; 
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem; 
+  line-height: 1.5;
+  color: #495057; 
+  background-color: #fff; 
+  background-clip: padding-box; 
+  border: 1px solid #ced4da; 
+  border-radius: .25rem; 
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.left-container {
+  float: left; /* Para alinear a la izquierda */
+  margin-right: 20px; /* Añade un margen a la derecha para separarlo de otros elementos */
+}
+
+
